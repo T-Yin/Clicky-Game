@@ -1,0 +1,25 @@
+nav {
+    height: 75px;
+    background-color: #61D8FF;
+}
+
+.title {
+    color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron {
+    background: url("https://cdna.artstation.com/p/assets/images/images/008/337/622/large/rebecca-jo-norman-109watermarked.jpg?1512089021");
+    background-size: 80% 450px;
+    border-bottom: 3px solid black;
+}
+
+.display-4 {
+    font-style: bold;
+    color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.h4 {
+    text-shadow: -1px -1px 0 #61D8FF, 1px -1px 0 #61D8FF, -1px 1px 0 #61D8FF, 1px 1px 0 #61D8FF;
+}

@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "name": "Finn",
+        "image": "https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/finn-the-human-adventure-time-38.3.jpg",
+        "clicked": false,
+        "writable": true
+    },
+    {
+        "id": 2,
+        "name": "Jake",
+        "image": "https://pbs.twimg.com/profile_images/1850759664/image.jpg",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "name": "Princess Bubblegum",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCmqZTQmfNusE0SFsHu2pl7UjaB1EeKFz6sjkbALkaX_q8cqtLQ",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "name": "Marceline",
+        "image": "https://66.media.tumblr.com/2aa5b7f2fd52e924bf689d1663e2c061/tumblr_nnszcxYRiF1tumicto6_250.png",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "name": "Lumpy Space Princess",
+        "image": "https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/lumpy-space-princess-adventure-time-69.4.jpg",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "Flame Princess",
+        "image": "https://pbs.twimg.com/profile_images/434246100141092864/G_baxKTp_400x400.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "name": "Ice King",
+        "image": "https://pixel.nymag.com/imgs/daily/vulture/2018/08/31/31-ice-king.w700.h700.jpg",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "name": "Huntress Wizard",
+        "image": "https://assets.mycast.io/characters/122080_normal.jpg?1548420609",
+        "clicked": false
+    },
+
+    {
+        "id": 9,
+        "name": "Beemo",
+        "image": "https://t2.rbxcdn.com/53249978446966e52cdf073856249e92",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "name": "Lady Rainicorn",
+        "image": "https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/lady-rainicorn-adventure-time-7.39.jpg",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "name": "Betty",
+        "image": "https://vignette.wikia.nocookie.net/p__/images/7/7a/Betty_Grof.png/revision/latest?cb=20140228154411&path-prefix=protagonist",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "name": "Peppermint Butler",
+        "image": "https://i.pinimg.com/236x/8d/e6/2e/8de62e4a30ceed22a8030ddc7ab18b13--peppermint-butler-adventure-time.jpg",
+        "clicked": false
+    }
+]
