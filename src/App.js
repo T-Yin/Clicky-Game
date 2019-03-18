@@ -6,20 +6,25 @@ import Characters from "./characters.json";
 
 class App extends Component {
     state = {
-        clicked: false,
+        clicked: [],
         curScore: 0,
         topScore: 0,
         Characters,
     };
 
     clickedImage = (id) => {
-        if (this.state.clicked === true) {
-            alert("Sorry, That was an incorrect guess. You lose!")
+        if (this.state.clicked.includes(id)) {
+            alert("Sorry, That was an incorrect guess. You lose!");
             this.setState({curScore: this.state.curScore = 0});
+            this.setState({clicked: []});
         } else {
-            this.setState({clicked: this.state.clicked = true });
+            this.setState({clicked: this.state.clicked.concat(id)});
             this.setState({curScore: this.state.curScore + 1});
-            this.setState({topScore: this.state.topScore + 1});
+            if (this.state.curScore >= this.state.topScore) {
+                this.setState({topScore: this.state.topScore + 1});
+            } else {
+                this.setState({topScore: this.state.topScore});
+            };
         }
     };
 
