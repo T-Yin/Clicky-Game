@@ -12,7 +12,7 @@ function NavBar(props) {
                 <div className="container">
                     <h1 className="display-4 text-center"> <b>It's Adventure Time!</b></h1>
                     <p className="h4 text-center m-2">Test your memory in this algebraic clicky game!
-                    Each time an image is clicked your score goes up, but if you click on the same image twice you lose!</p>
+                    Each time an image is clicked your score goes up, but if you click on the same image twice you lose! Can you get 12 points to win?</p>
                 </div>
             </div>
         </>

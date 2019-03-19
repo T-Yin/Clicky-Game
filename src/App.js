@@ -3,6 +3,7 @@ import CharaCard from "./components/CharaCard";
 import NavBar from "./components/NavBar";
 import Wrapper from "./components/Wrapper";
 import Characters from "./characters.json";
+var shuffle = require('shuffle-array');
 
 class App extends Component {
     state = {
@@ -13,18 +14,21 @@ class App extends Component {
     };
 
     clickedImage = (id) => {
-        if (this.state.clicked.includes(id)) {
-            alert("Sorry, That was an incorrect guess. You lose!");
-            this.setState({curScore: this.state.curScore = 0});
-            this.setState({clicked: []});
+        if (this.state.clicked.includes(id) && this.state.topScore === 12) {
+            alert("Congrats, you win!");
+        } else if (this.state.clicked.includes(id)) {
+            alert("Incorrect, you lose!");
+            this.setState({ curScore: this.state.curScore = 0 });
+            this.setState({ clicked: [] });
         } else {
-            this.setState({clicked: this.state.clicked.concat(id)});
-            this.setState({curScore: this.state.curScore + 1});
+            this.setState({ clicked: this.state.clicked.concat(id) });
+            this.setState({ curScore: this.state.curScore + 1 });
             if (this.state.curScore >= this.state.topScore) {
-                this.setState({topScore: this.state.topScore + 1});
+                this.setState({ topScore: this.state.topScore + 1 });
             } else {
-                this.setState({topScore: this.state.topScore});
+                this.setState({ topScore: this.state.topScore });
             };
+            shuffle(Characters);
         }
     };
 
